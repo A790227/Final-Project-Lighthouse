@@ -48,32 +48,20 @@ Rather than sampling the statistically minimal sample size, increase the proport
 
 - Process: Examine column names, data types, memory usage, and size. Understand the structure and basic attributes of the dataset. Distributions
 
-- Process: Plot histograms of rating, helpful_vote, and review_length.
-    -- Goal: Understand the spread and distribution of key numerical features.
-    Correlations
+- Process: Plot histograms of rating, helpful_vote, and review_length. Understand the spread and distribution of key numerical features. Correlations
 
-- Process: Compute and visualize correlations between rating, helpful_vote, and review_length.
-    Goal: Identify relationships between numerical features.
-    Temporal Trends
+- Process: Compute and visualize correlations between rating, helpful_vote, and review_length. Identify relationships between numerical features.    Temporal Trends
 
-- Process: Convert timestamp to datetime and analyze trends in rating over time.
-    Goal: Explore changes in ratings over the years.
-    Verified Purchases Analysis
+- Process: Convert timestamp to datetime and analyze trends in rating over time. Explore changes in ratings over the years. Verified Purchases Analysis
 
-- Process: Compare rating and helpful_vote between verified and non-verified purchases.
-    Goal: Understand how verified status affects ratings and helpfulness.
-    Product Ratings
+- Process: Compare rating and helpful_vote between verified and non-verified purchases. Understand how verified status affects ratings and helpfulness. Product Ratings
 
-- Process: Calculate and visualize average ratings for products (asin), highlighting top and bottom performers.
-    Goal: Identify the best and worst-rated products.
-    Relationships
+- Process: Calculate and visualize average ratings for products (asin), highlighting top and bottom performers. Identify the best and worst-rated products. Relationships
 
-- Process: Explore relationships between review_length, rating, and helpful_vote.
-    Goal: Determine how review length impacts ratings and helpfulness.
+- Process: Explore relationships between review_length, rating, and helpful_vote. Determine how review length impacts ratings and helpfulness.
     Word Analysis
 
-- Process: Perform word frequency analysis and generate a WordCloud.
-    Goal: Identify common themes and keywords in review texts.
+- Process: Perform word frequency analysis and generate a WordCloud. Identify common themes and keywords in review texts.
 
 
 ## Pre-trained Model
