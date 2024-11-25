@@ -103,7 +103,7 @@ Results:
 
 These results indicate that the model performs well on classifying reviews with balanced performance between positive and negative sentiments. However. THE PREDICTION RESULTS LACK CONFIDENCE DUE TO THE SMALL SAMPLE SIZE, WHICH PROVIDES INSUFFICIENT STATISTICAL POWER.
 
- Second pre-model optimal sizes calculate Increase Sampling Proportion (Optimal)
+- Second pre-model optimal sizes calculate Increase Sampling Proportion (Optimal)
 
     - Epoch 3 ran successfully, and it seems you completed training with:
     - Training Loss: 0.2024 (low, indicating a good fit to the training data).
