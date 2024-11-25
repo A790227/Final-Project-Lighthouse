@@ -46,9 +46,7 @@ Rather than sampling the statistically minimal sample size, increase the proport
 - Item Metadata dataset Beauty_and_Personal_Care(descriptions, price, raw image, etc.); 2.63GB (EDA META DATASET)
 
 
-- Process: Examine column names, data types, memory usage, and size.
-    -- Goal: Understand the structure and basic attributes of the dataset.
-        Distributions
+- Process: Examine column names, data types, memory usage, and size. Understand the structure and basic attributes of the dataset. Distributions
 
 - Process: Plot histograms of rating, helpful_vote, and review_length.
     -- Goal: Understand the spread and distribution of key numerical features.
