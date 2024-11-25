@@ -15,7 +15,7 @@ This is a large-scale Amazon Reviews dataset, collected in 2023 by McAuley Lab, 
 Item Metadata dataset Beauty_and_Personal_Care(descriptions, price, raw image, etc.); 2.63GB
 Links (user-item / bought together graphs).
 
-- Source: Hugging Face datasets library (imdb dataset)
+- Source: Hugging Face datasets library (McAuley-Lab Amazon-Reviews-2023 dataset)
 
 ## Sample sizes 
 
@@ -51,7 +51,7 @@ Rather than sampling the statistically minimal sample size, increase the proport
     Distributions
 
 - Process: Plot histograms of rating, helpful_vote, and review_length.
-    Goal: Understand the spread and distribution of key numerical features.
+    -- Goal: Understand the spread and distribution of key numerical features.
     Correlations
 
 - Process: Compute and visualize correlations between rating, helpful_vote, and review_length.
