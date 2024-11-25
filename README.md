@@ -11,7 +11,7 @@
 The dataset contains:
 This is a large-scale Amazon Reviews dataset, collected in 2023 by McAuley Lab, and it includes rich features such as:
 
-User Reviews dataset Beauty_and_Personal_Care(ratings, text, helpfulness votes, etc.); 10.2 GB
+- User Reviews dataset Beauty_and_Personal_Care(ratings, text, helpfulness votes, etc.); 10.2 GB
 Item Metadata dataset Beauty_and_Personal_Care(descriptions, price, raw image, etc.); 2.63GB
 Links (user-item / bought together graphs).
 
@@ -22,17 +22,17 @@ Links (user-item / bought together graphs).
 - First pre-model was run with Formula to Calculate Sample Size:
 For a given confidence level, margin of error, and proportion:
 
-Where:
-n: Required sample size (for infinite population)
-Z: Z-score corresponding to the desired confidence level
+        Where:
+        n: Required sample size (for infinite population)
+        Z: Z-score corresponding to the desired confidence level
 
-For example:
-90% confidence level → 𝑍 = 1.645
-95% confidence level → Z=1.96
-99% confidence level → Z=2.576
+        For example:
+        90% confidence level → 𝑍 = 1.645
+        95% confidence level → Z=1.96
+        99% confidence level → Z=2.576
 
-- p: Estimated proportion of the population with the characteristic of interest (default 𝑝=0.5 if unknown, as it maximizes sample size)
-- E: Margin of error (e.g., E=0.05 for ±5%)
+        p: Estimated proportion of the population with the characteristic of interest (default 𝑝=0.5 if unknown, as it maximizes sample size)
+        E: Margin of error (e.g., E=0.05 for ±5%)
 - sample sizes 385 registers
 
 - Second pre-model was run with optimal sizes calculate Increase Sampling Proportion
@@ -100,6 +100,7 @@ Results:
     - Training Loss: 0.594529
     - Validation Loss: 0.501252
     - Accuracy: 0.792208 (or ~79.22% validation accuracy)
+
 These results indicate that the model performs well on classifying reviews with balanced performance between positive and negative sentiments. However. THE PREDICTION RESULTS LACK CONFIDENCE DUE TO THE SMALL SAMPLE SIZE, WHICH PROVIDES INSUFFICIENT STATISTICAL POWER.
 
  Second pre-model optimal sizes calculate Increase Sampling Proportion (Optimal)
