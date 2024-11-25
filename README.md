@@ -47,8 +47,8 @@ Rather than sampling the statistically minimal sample size, increase the proport
 
 
 - Process: Examine column names, data types, memory usage, and size.
-    Goal: Understand the structure and basic attributes of the dataset.
-    Distributions
+    -- Goal: Understand the structure and basic attributes of the dataset.
+        Distributions
 
 - Process: Plot histograms of rating, helpful_vote, and review_length.
     -- Goal: Understand the spread and distribution of key numerical features.
